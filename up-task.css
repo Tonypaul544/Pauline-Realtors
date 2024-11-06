@@ -1652,6 +1652,7 @@ button {
   margin: auto;
   margin-top: 300px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 90%;
   margin-top: 25em;
