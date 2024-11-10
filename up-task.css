@@ -794,9 +794,6 @@ text-shadow: 4px 6px 13px;
 }
 
 
-
-
-
 .compound-text {
   font-size: 49px;
   text-shadow: 1px 2px 5px;
@@ -1080,13 +1077,13 @@ footer {
 
 .hambogar{
   position: absolute;
-  float: right;
-  right: 30px;
+  /* float: right; */
+  right: -120px;
   font-family: cursive;
-  font-size: 18px;
   background-color: rgba(215, 100, 58, .7);
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 10px;
+  align-items: center;
   padding-bottom: 5px;
   overflow: hidden;
   color: white;
@@ -1094,7 +1091,30 @@ footer {
   display: grid;
   margin: 0 auto;
   justify-content: center;
-  margin-top: -12px;
+  padding-left: 5px;
+  padding-top: 14px;
+  margin-top: -10px;
+}
+
+.fa-ellipsis-vertical{
+  width: 70px;
+  height: 35px;
+  /* background-color: coral; */
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+#disapear {
+  font-size: 22px;
+  z-index: 1;
+  background-color: chocolate;
+}
+
+.right h4:hover {
+  cursor: pointer;
+  border-bottom: 2px solid chocolate;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .left {
@@ -1726,4 +1746,8 @@ button {
   gap: 20px;
 }
 
+}
+
+.house-grid {
+width: 290px;
 }
